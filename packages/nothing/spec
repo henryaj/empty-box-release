@@ -1,0 +1,7 @@
+---
+name: nothing
+
+dependencies: {}
+
+files:
+- nothing/*

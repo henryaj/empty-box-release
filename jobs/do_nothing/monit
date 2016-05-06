@@ -1,0 +1,5 @@
+check process do_nothing
+  with pidfile /var/vcap/sys/run/do_nothing/pid
+  start program "/var/vcap/jobs/do_nothing/bin/ctl start"
+  stop program "/var/vcap/jobs/do_nothing/bin/ctl stop"
+  group vcap

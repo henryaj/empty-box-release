@@ -1,0 +1,5 @@
+# abort script on any command that exits with a non zero value
+set -e
+
+chmod +x nothing/nothing.sh
+cp -a nothing/* ${BOSH_INSTALL_TARGET}

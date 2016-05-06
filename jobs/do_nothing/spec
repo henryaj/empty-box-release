@@ -1,0 +1,7 @@
+---
+name: do_nothing
+
+templates:
+  ctl.erb: bin/ctl
+
+packages: [nothing]

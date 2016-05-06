@@ -1,0 +1,6 @@
+---
+name: say_hello
+templates:
+  run: /bin/run
+
+packages: []
