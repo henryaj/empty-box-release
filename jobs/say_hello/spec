@@ -6,6 +6,9 @@ templates:
 packages: []
 
 properties:
+  salutation:
+    description: How do you want to be greeted?
+    default: Hello!
   message:
-    descriptions: What should I say?
-    default: Hello
+    description: What else should I say?
+    default: Fool
