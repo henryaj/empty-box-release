@@ -4,3 +4,8 @@ templates:
   run: /bin/run
 
 packages: []
+
+properties:
+  message:
+    descriptions: What should I say?
+    default: Hello
